@@ -1,66 +1,83 @@
-<?php
-/**
- * The template for displaying the footer.
- *
- * Contains the closing of the #content div and all content after
- *
- * @package site
- */
-
-?>
-
-	<section id="footer">
+	<footer id="footer">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-left">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-bot.png"; ?>" />
+			<div class="row wow fadeInUp">
+				<div class="col-md-12">
+					<h2>Interlog Distribuição</h2>
+					<p>Logística integrada, eficiente e ágil, essa é a Interlog Distribuição.</p>
 				</div>
-			</div><!-- .row -->
-			<div class="row"><br>
-				<div class="col-md-6 text-left">
-					<p>A Data Certa surgiu com o objetivo de oferecer soluções que tornem mais simples a vida da sua empresa, seja de pequeno ou grande porte.</p>
-					<p>Com nossas soluções em manuseio, transporte, courier, logística reversa, impressão com dados variáveis e gestão postal, seus prazos são levados a sério.</p>
-					<p>Com tecnologia, excelência no atendimento e o melhor custo-benefício, a Data Certa cuida do gerenciamento completo de toda a cadeia produtiva do seu produto do início ao destino final.</p>
-				</div>
-				<div class="col-md-3 col-md-offset-3 text-left">
-					<strong>Receba nossas novidades</strong><br><br>
-					<?php echo do_shortcode('[contact-form-7 id="556" title="Receba Novidade"]'); ?>
-				</div>
-			</div><br>
-			<div class="row">
-				<div class="col-md-9">
-					<ul class="menu-footer clearfix">
-						<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">A Empresa</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' )."mobidata" ); ?>">Mobidata</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' ) )."servicos"; ?>">Serviços</a></li>
-						<li><a target="_blank" href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">Blog</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' )."quero-ser-cliente" ); ?>">Quero ser Cliente</a></li>
-						<li><a href="#">FAQ</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' )."orcamento" ); ?>">Calcular Frete</a></li>
+			</div><br><br>
+			<div class="row wow fadeInUp">
+				<div class="col-md-12">
+					<ul class="redes_sociais_header clearfix">
+		              <li class="youtube"><a target="_blank" href="#"></a></li>
+		              <li class="instagram"><a target="_blank" href="#"></a></li>
+		              <li class="twitter"><a target="_blank" href="#"></a></li>
+		              <li class="facebook"><a target="_blank" href="#"></a></li>
 					</ul>
 				</div>
-				<div class="col-md-3">
-					<ul class="redes_sociais_header">
-			              <li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCb42k7qXDCeQSI7LvPDc8ZA"></a></li>
-			              <li class="instagram"><a target="_blank" href="https://www.instagram.com/datacerta"></a></li>
-			              <li class="twitter"><a target="_blank" href="https://twitter.com/datacertalog"></a></li>
-			              <li class="facebook"><a target="_blank" href="https://www.facebook.com/datacertalogistica"></a></li>
-			              <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/company-beta/10804304"></a></li>
+			</div><br><br>
+			<div class="row wow fadeInUp">
+				<div class="col-md-10 col-md-offset-1">
+					<ul class="menu-footer">
+						<li><a href="#">Início</a></li
+						><li><a href="<?php echo home_url( '/' ); ?>">Serviços</a></li
+						><li><a href="<?php echo home_url( '/' ); ?>">Estrutura</a></li
+						><li><a href="<?php echo home_url( '/' ); ?>">Fale Conosco</a></li
+						><li><a href="<?php echo home_url( '/' ); ?>">Área do Cliente</a></li
+						><li><a href="<?php echo home_url( '/' ); ?>">Quero um Orçamento</a></li>
 					</ul>
 				</div>
-			</div><br>
-			<div class="row">
-				<div class="col-md-6 text-left copy-text">
-					&copy; Copyright <?php echo date('Y') ?> - Data Certa
+			</div><br><br>
+
+			<div class="row wow fadeInUp">
+				<div class="col-md-3 text-left">
+					<h3>Interlog Belo Horizonte</h3>
+					<p>
+						Rua Major Lage, 400 - Ouro Preto<br>
+						Belo Horizonte - MG<br>
+						31 3048-9088
+					</p>
 				</div>
-				<div class="col-md-3 col-md-offset-3 copy-text text-right">
-					<a target="_blank" href="http://seimidigital.com.br/">
+				<div class="col-md-3 text-left">
+					<h3>Interlog São Paulo</h3>
+					<p>
+						Rua Dom João V, 170 - Lapa<br>
+						São Paulo - SP<br>
+						11 5524-7494
+					</p>
+				</div>
+				<div class="col-md-3 text-left">
+					<h3>Interlog Rio de Janeiro</h3>
+					<p>
+						Rua Proclamação, 611 - Bonsucesso<br>
+						Rio de Janeiro - RJ<br>
+						21 3976-5653
+
+					</p>
+				</div>
+				<div class="col-md-3 text-left">
+					<h3>Interlog Estados Unidos</h3>
+					<p>
+						7225. NW 68 Street Unit 12<br>
+						Miami - Estados Unidos<br>
+						+1 305-885777
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer><!-- #footer -->
+	<div class="copyrino">
+		<div class="container">
+			<div class="row wow fadeInUp">
+				<div class="col-md-12 text-center">
+					&copy; Copyright <?php echo date('Y') ?> -  Todos os direitos reservados - Interlog Distribuição
+						<a target="_blank" href="http://seimidigital.com.br/" class="pull-right">
 						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-small.png"; ?>" />
 					</a>
-				</div>				
+				</div>
 			</div>
-		</div><!-- .container -->
-	</section><!-- #footer -->
+		</div>
+	</div>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

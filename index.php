@@ -106,38 +106,27 @@ transporte de encomendas expressas, movimentação de objetos de valor, carga fr
 
 <section id="home-mobidata">
 	<div class="container">
-		<div class="row fadeInUp wow">
-			<h1 class="titulo-linha">Aplicativo Mobidata</h1>
-			<div class="separador"></div>
-		</div>
-		<div class="row fadeInUp wow">
-			<div class="col-md-8 col-md-offset-2">
-				<p>
-					<strong>Mobidata é um aplicativo de monitoramento de encomendas em tempo real. <br>
-						Com rastreamento geolocalizador, é possível saber onde está a encomenda.</strong>					
-				</p><br/><br/>
-			</div>
-		</div>
 		<div class="row">
-			<div class="col-md-7 text-left fadeInUp wow">
-				<h2 class="">Mobidata</h2>
+			<div class="col-md-6 text-left fadeInUp wow">
+				<h1>A Interlog Distribuição</h1>
 				<p>
-					O aplicativo mostra os pontos exatos de latitude e longitude. Assim, não existe risco de perda ou de entregas em locais errados. <br>
-					As encomendas rastreadas com o nosso sistema têm a garantia de uma entrega segura e rápida.	
+					Com nossa visão estratégica, a Iterlog Distribuição disponibiliza 
+soluções customizadas para todos os setores do mercado, que 
+envolvem os serviços de:
 				</p>					
 				<div class="separadorb"></div>
 				<ul class="mobi-vantagens">
-					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">Baixa em tempo real</div></li>
-					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">Digitalização em tempo real</div></li>
-					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">Prova incontestável da visita através de foto do domicílio</div></li>
-					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">Rastreamento do entregador</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">armazenagem</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">picking</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">montagem de kits</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">transporte de encomendas expressas</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">movimentação de objetos de valor</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">carga fracionada</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">manuseio de documentos</div></li>
 				</ul>
-				<h2>Baixe o aplicativo</h2><br>
-				<a class="pull-left" style="margin-right:20px;" href="https://play.google.com/store/apps/details?id=br.com.fastcourier" target="_blank"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-playstore.png"; ?>" /></a>
-				<a href="#" data-toggle="modal" data-target="#myModala"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-saiba-mais.png"; ?>" /></a>
 			</div>
-			<div class="col-md-5 fadeInRight wow" data-wow-delay="0.5s">
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/mobi-cel.png"; ?>" />
+			<div class="col-md-6 fadeInRight wow" data-wow-delay="0.5s">
+				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/video.jpg"; ?>" />
 			</div>
 		</div>
 	</div>		

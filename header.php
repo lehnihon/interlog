@@ -15,7 +15,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link rel="shortcut icon" type="image/png" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Data Certa Logistica Icone.png"; ?>" />
+
 <?php wp_head(); ?>
 <script>
 new WOW().init();
@@ -61,7 +61,7 @@ new WOW().init();
 							</ul>								
 						</div>						
 						<div class="menu-header clearfix">
-							<div class="menu-op"><a class="orcamento" href="<?php echo home_url( '/' )."quero-ser-cliente"; ?>">Faça um Orçamento</a></div>
+							<div class="menu-op"><a class="orcamento" href="<?php echo home_url( '/' )."quero-ser-cliente"; ?>">Area do Cliente</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Fale Conosco</a></div>	
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Estrutura</a></div>							
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Serviços</a></div>
