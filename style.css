@@ -31,9 +31,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   SOBRE
   */
   /* 
-  MOBIDATA
-  */
-  /* 
   SOLU├ç├òES
   */
   /* 
@@ -394,13 +391,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page section#home-mobidata {
     padding-top: 30px;
     padding-bottom: 60px; }
-    #page section#home-mobidata h1.titulo-linha {
+    #page section#home-mobidata h1 {
       margin: 0;
-      padding-bottom: 25px; }
+      padding-bottom: 20px;
+      color: #cb723b; }
     #page section#home-mobidata div.separador {
       border-bottom: 2px solid #eff2f1;
       width: 350px;
       margin: 0 auto;
+      margin-bottom: 25px; }
+    #page section#home-mobidata div.separadorc {
+      border-bottom: 2px solid #cb723b;
+      width: 120px;
       margin-bottom: 25px; }
     #page section#home-mobidata img {
       display: block; }
@@ -429,69 +431,55 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       padding-left: 20px; }
     #page section#home-atuacoes a {
       padding-left: 20px; }
-  #page section#sobre div.container {
-    padding-bottom: 50px;
-    background-image: url("images/fundo-quemsomos.jpg");
-    background-repeat: no-repeat;
-    background-position: right bottom; }
-    #page section#sobre div.container p {
-      margin-bottom: 20px; }
-    #page section#sobre div.container p.sobre-destaque {
-      color: #00509c;
-      font-weight: bold;
-      font-size: 18px; }
-    #page section#sobre div.container h1.titulo-linha {
+  #page section#sobre {
+    padding-top: 10px;
+    padding-bottom: 60px; }
+    #page section#sobre h1 {
       margin: 0;
-      padding-bottom: 25px; }
-    #page section#sobre div.container div.separador {
+      padding-bottom: 20px;
+      color: #cb723b; }
+    #page section#sobre h2 {
+      margin: 0;
+      padding-bottom: 20px;
+      color: #cb723b; }
+    #page section#sobre div.separador {
       border-bottom: 2px solid #eff2f1;
       width: 350px;
       margin: 0 auto;
       margin-bottom: 25px; }
-  #page section#sobre-info {
-    background-color: #eff1f1;
-    padding: 50px 0;
-    margin-bottom: 50px; }
-    #page section#sobre-info h2 {
-      margin: 0;
-      margin-bottom: 10px; }
-    #page section#sobre-info h2.sobre-num {
-      font-size: 40px;
-      margin: 15px 0; }
-    #page section#sobre-info div.sobre-desc {
-      width: 60%;
-      margin: 0 auto; }
-  #page section#mobidata {
-    padding-bottom: 60px;
-    background-image: url("images/fundo-verde.jpg");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 100%; }
-    #page section#mobidata h1.titulo-linha {
-      margin: 0;
-      padding-bottom: 25px; }
-    #page section#mobidata div.separador {
+    #page section#sobre div.separadorc {
+      border-bottom: 2px solid #cb723b;
+      width: 120px;
+      margin-bottom: 25px; }
+    #page section#sobre img {
+      display: block; }
+    #page section#sobre div.separadorb {
       border-bottom: 2px solid #eff2f1;
       width: 350px;
-      margin: 0 auto;
-      margin-bottom: 25px; }
-    #page section#mobidata p.mobi-destaque, #page section#mobidata h2.mobi-destaque {
-      color: #00509c;
-      font-size: 18px;
-      font-weight: bold; }
-    #page section#mobidata ul.mobi-vantagens {
+      margin-bottom: 25px;
+      margin-top: 25px; }
+    #page section#sobre ul.mobi-vantagens {
       list-style-type: none;
       padding-left: 10px;
-      margin-bottom: 40px;
-      margin-top: 30px; }
-      #page section#mobidata ul.mobi-vantagens li {
+      margin-bottom: 50px; }
+      #page section#sobre ul.mobi-vantagens li {
         margin: 10px 0; }
-        #page section#mobidata ul.mobi-vantagens li img {
+        #page section#sobre ul.mobi-vantagens li img {
           float: left;
           display: block;
           margin-right: 5px; }
-        #page section#mobidata ul.mobi-vantagens li div.check-desc {
+        #page section#sobre ul.mobi-vantagens li div.check-desc {
           line-height: 14px; }
+  #page section#sobre-info {
+    background-color: #eff1f1;
+    padding: 50px 0; }
+    #page section#sobre-info h2 {
+      margin: 0;
+      margin-bottom: 10px;
+      color: #cb723b; }
+    #page section#sobre-info div.sobre-desc {
+      width: 60%;
+      margin: 0 auto; }
   #page section#title-solucoes h1.titulo-linha {
     margin: 0;
     padding-bottom: 25px; }

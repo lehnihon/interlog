@@ -12,62 +12,61 @@
 
 get_header(); ?>
 
-<?php get_template_part( 'template-parts/breadcrumbs' ); ?>
-
 <section id="sobre">
 	<div class="container">
 		<div class="row">
-			<h1 class="titulo-linha">Sobre a Data Certa Logística</h1>
-			<div class="separador"></div>
-		</div>
-		<div class="row"><br>
-			<div class="col-md-7 text-left">
-				<p class="sobre-destaque">
-					Vivência acumulada de mais de 20 anos na gestão da cadeia logística, e-commerce, movimentação e transferência de cargas sensíveis, 
-					manuseio e entrega de produtos valorados (benefícios), courier, cross-docking, logística reversa, fulfillment e armazenagem.					
-				</p>
-				<p>
-					<strong>A Data Certa surgiu com o objetivo de oferecer soluções de logística que tornem mais simples a vida da sua empresa, seja de pequeno ou grande porte.</strong>
-				</p>
-				<p>
-					Com nossas soluções em manuseio, transporte, courier, logística reversa, impressão com dados variáveis e gestão postal, seus prazos são levados a sério.
-				</p>
-				<p>
-					<strong>Interligando bairros, cidades e estados, a Data Certa oferece mais uma ferramenta de gerenciamento, rastreamento e baixa remota que permite a você um pleno acompanhamento das etapas 
-					do processo no menor tempo de trânsito.</strong>
-				</p>
-				<p>
-					Com tecnologia, excelência no atendimento e o melhor custo-benefício, a Data Certa cuida do gerenciamento completo de toda a cadeia produtiva do seu produto do início ao destino final.
-				</p>
+			<div class="col-md-12 text-left fadeInUp wow">
+				<h1>A Interlog</h1>
+				<div class="separadorc"></div>
 			</div>
-		</div><br>
-		<div class="row text-left">
-			<img class="e-cinza img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/depoimento.png"; ?>" />			
-		</div>		
-	</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 text-left fadeInUp wow">
+				<p>
+					Inicialmente atuávamos em Belo Horizonte, mas como a demanda de 
+					nossos clientes se expandia, passamos a atuar nas principais cidades 
+					do interior do estado de Minas Gerais e a nível nacional. 	
+				</p>					
+				<p>Os profissionais da Interlog atendem a pequenas empresas e a grandes
+					instituições, transportando em todo o país cargas e encomendas 
+					expressas. </p>
+				<p>Realizamos projetos de acordo com a necessidade de nossos clientes 
+					atendendo a vários nichos de mercado. </p>
+				<p>Com o processo totalmente informatizado, administramos e conduzimos 
+					com segurança as mais diversas demandas, oferecendo aos clientes 
+					sistema de monitoramento via Web.</p><br>
+				<ul class="mobi-vantagens">
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">Capilaridade</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">Prazos reduzidos</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">Agilidade e versatilidade</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">Segurança da carga</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">Moderna estrutura dinâmica e equalizada</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">Atendimento personalizado</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">Equipe altamente qualificada</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">TI (baixa online, etc)</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">Frota própria</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">Empresa sustentável (certificação Ouro)</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">Rastreamento total da carga</div></li>
+					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">Excelente relação custo/benefício</div></li>
+				</ul>
+			</div>
+			<div class="col-md-6 fadeInRight wow" data-wow-delay="0.5s">
+				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/video.jpg"; ?>" />
+			</div>
+		</div>
+	</div>		
 </section>
 
 <section id="sobre-info">
 	<div class="container">
 		<div class="row">
-			<h2>Informações interessantes sobre nós</h2>
+			<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/chat.png"; ?>" /><br><br>
+			<h2>Solicite um orçamento</h2>
+			<p>É rápido e fácil, solicite uma proposta e, em caso de dúvidas, conte com um dos nossos especialistas.</p>
 		</div><br>		
 		<div class="row">
-			<div class="col-md-4">
-				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-empilhadeira.png"; ?>" />
-				<h2 class="sobre-num">500.000</h2>
-				<div class="sobre-desc">Volumes entregues de encomendas por ano.</div>
-			</div>
-			<div class="col-md-4">
-				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-caminhao.png"; ?>" />
-				<h2 class="sobre-num">4.000km</h2>
-				<div class="sobre-desc">Percorridos para realização das entregas por dia.</div>
-
-			</div>
-			<div class="col-md-4">
-				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-graficos.png"; ?>" />
-				<h2 class="sobre-num">99,7%</h2>
-				<div class="sobre-desc"><strong>SLA</strong> Prazo de entrega.</div>
+			<div class="col-md-12">
+				<a href="<?php echo home_url( '/' )."orcamento"; ?>" class="btn btn-amarelo">quero um orcamento</a>
 			</div>
 		</div>
 	</div>

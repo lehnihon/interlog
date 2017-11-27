@@ -40,35 +40,6 @@ function site_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 
-	// This theme uses wp_nav_menu() in one location.
-	register_nav_menus( array(
-		'primary' => esc_html__( 'Primary Menu', 'site' ),
-	) );
-
-	/*
-	 * Switch default core markup for search form, comment form, and comments
-	 * to output valid HTML5.
-	 */
-	add_theme_support( 'html5', array(
-		'search-form',
-		'comment-form',
-		'comment-list',
-		'gallery',
-		'caption',
-	) );
-
-	/*
-	 * Enable support for Post Formats.
-	 * See http://codex.wordpress.org/Post_Formats
-	 */
-	add_theme_support( 'post-formats', array(
-		'aside',
-		'image',
-		'video',
-		'quote',
-		'link',
-	) );
-
 	// Set up the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'site_custom_background_args', array(
 		'default-color' => 'ffffff',
@@ -135,38 +106,23 @@ function my_custom_change_ninja_forms_settings_capabilities_filter( $capabilitie
 add_filter( 'ninja_forms_admin_parent_menu_capabilities', 'my_custom_change_ninja_forms_settings_capabilities_filter' );
 add_filter( 'ninja_forms_admin_settings_capabilities', 'my_custom_change_ninja_forms_settings_capabilities_filter' );
 
-/**
- * Register widget area.
- *
- * @link http://codex.wordpress.org/Function_Reference/register_sidebar
- */
-function site_widgets_init() {
-	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'site' ),
-		'id'            => 'sidebar-1',
-		'description'   => '',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</aside>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
-}
-add_action( 'widgets_init', 'site_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
  */
 function site_scripts() {
 	wp_enqueue_style( 'site-style-bootstrap', get_template_directory_uri() ."/bootstrap/css/bootstrap.min.css" );
+	wp_enqueue_style( 'site-style-bxslider', get_template_directory_uri() ."/js/jquery.bxslider.css" );
 	wp_enqueue_style( 'site-style-animate', get_template_directory_uri() ."/animate.css" );
+	wp_enqueue_style( 'site-style-lightbox', get_template_directory_uri() ."/js/lightbox2/src/css/lightbox.css" );
 	wp_enqueue_style( 'site-style', get_stylesheet_uri() );
 	
 	wp_enqueue_script( 'site-script-jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js');
 	wp_enqueue_script( 'site-script-bootstrap', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js');
 	wp_enqueue_script( 'site-script-jquery-ui', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js');
 	wp_enqueue_script( 'site-script-mask', get_template_directory_uri() . '/js/jquery.mask.min.js');
-	wp_enqueue_script( 'site-script-waypoints', 'http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js',array(),false,true);
-	wp_enqueue_script( 'site-script-counterup', get_template_directory_uri() . '/js/jquery.counterup.min.js',array(),false,true);	
+	wp_enqueue_script( 'site-script-bxslider', get_template_directory_uri() . '/js/jquery.bxslider.min.js',array(),false,true);
+	wp_enqueue_script( 'site-script-lightbox', get_template_directory_uri() . '/js/lightbox2/src/js/lightbox.js',array(),false,true);
 	wp_enqueue_script( 'site-script-wow', get_template_directory_uri() . '/js/wow.min.js',array());
 	wp_enqueue_script( 'site-script-site', get_template_directory_uri() . '/js/script.js',array(),false,true);
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
