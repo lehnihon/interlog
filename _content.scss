@@ -287,13 +287,13 @@ section#home-solucoes{
 }
 
 section#home-mobidata{
-	padding-top:30px;
+	padding-top:60px;
 	padding-bottom:60px;
 
 	h1{
 		margin:0;
 		padding-bottom:20px;
-		color:#cb723b;
+		color:#e47234;
 	}
 
 	div.separador{
@@ -304,7 +304,7 @@ section#home-mobidata{
 	}
 
 	div.separadorc{
-		border-bottom: 2px solid #cb723b;;
+		border-bottom: 2px solid #e47234;;
 		width:120px;
 		margin-bottom: 25px;
 	}
@@ -367,13 +367,13 @@ section#sobre{
 	h1{
 		margin:0;
 		padding-bottom:20px;
-		color:#cb723b;
+		color:#e47234;
 	}
 
 	h2{
 		margin:0;
 		padding-bottom:20px;
-		color:#cb723b;
+		color:#e47234;
 	}
 
 	div.separador{
@@ -384,7 +384,7 @@ section#sobre{
 	}
 
 	div.separadorc{
-		border-bottom: 2px solid #cb723b;;
+		border-bottom: 2px solid #e47234;;
 		width:120px;
 		margin-bottom: 25px;
 	}
@@ -421,7 +421,82 @@ section#sobre{
 		}
 		
 	}
+
+	.col-md-4{
+		padding-bottom:35px;
+	}
 }
+
+/* 
+SERVICOS
+*/
+section#servicos{
+	padding-top:10px;
+	padding-bottom:60px;
+
+	h1{
+		margin:0;
+		padding-bottom:20px;
+		color:#e47234;
+	}
+
+	h2{
+		margin:0;
+		padding-bottom:20px;
+		color:#e47234;
+	}
+
+	div.separador{
+		border-bottom: 2px solid #eff2f1;
+		width:350px;
+		margin:0 auto;
+		margin-bottom: 25px;
+	}
+
+	div.separadorc{
+		border-bottom: 2px solid #e47234;;
+		width:120px;
+		margin-bottom: 25px;
+	}
+
+	img{
+		margin-bottom:20px;
+	}
+
+	div.separadorb{
+		border-bottom: 2px solid #eff2f1;
+		width:350px;
+		margin-bottom: 25px;
+		margin-top:25px;		
+	}
+
+	ul.mobi-vantagens{
+		list-style-type: none;
+		padding-left:10px;
+		margin-bottom: 50px;
+		
+		li{
+			margin:10px 0;
+
+			img{
+				float: left;
+				display: block;
+				margin-right: 5px;
+			}
+
+			div.check-desc{
+				
+				line-height: 14px;
+			}			
+		}
+		
+	}
+
+	.col-md-4{
+		padding-bottom:35px;
+	}
+}
+
 section#sobre-info{
 	background-color:#eff1f1;
 	padding:50px 0;
@@ -429,7 +504,7 @@ section#sobre-info{
 	h2{
 		margin: 0;
 		margin-bottom: 10px;
-		color: #cb723b;
+		color: #e47234;
 	}
 
 	div.sobre-desc{

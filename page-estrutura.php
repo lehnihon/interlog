@@ -35,23 +35,34 @@ get_header(); ?>
 				dos nossos sistemas de monitoramento via web e mobile.</p>
 			</div>
 			<div class="col-md-6 fadeInRight wow" data-wow-delay="0.5s">
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/video.jpg"; ?>" />
+				<img class="img-responsive"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto1.jpg"; ?>" />
 				<div class="slider1">			
 					<div class="slide">
-						<a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/video.jpg"; ?>">
-							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/video.jpg"; ?>">
+						<a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto2.jpg"; ?>">
+							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto2.jpg"; ?>" />
 						</a>
 					</div>
 					<div class="slide">
-						<a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/video.jpg"; ?>">
-							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/video.jpg"; ?>">
+						<a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto3.jpg"; ?>">
+							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto3.jpg"; ?>" />
 						</a>
 					</div>
 					<div class="slide">
-						<a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/video.jpg"; ?>">
-							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/video.jpg"; ?>">
+						<a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto4.jpg"; ?>">
+							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto4.jpg"; ?>" />
 						</a>
 					</div>
+					<div class="slide">
+						<a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto5.jpg"; ?>">
+							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto5.jpg"; ?>" />
+						</a>
+					</div>	
+					<div class="slide">
+						<a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto6.jpg"; ?>">
+							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto6.jpg"; ?>" />
+						</a>
+					</div>	
+
 				</div>
 			</div>
 		</div>

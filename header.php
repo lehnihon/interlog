@@ -53,19 +53,19 @@ new WOW().init();
 							</button>
 							<ul class="dropdown-menu">
 								<li><a href="<?php echo home_url( '/' ); ?>">Início</a></li
-								><li><a href="<?php echo home_url( '/' ); ?>">A Interlog</a></li
-								><li><a href="<?php echo home_url( '/' ); ?>">Serviços</a></li
-								><li><a href="<?php echo home_url( '/' ); ?>">Estrutura</a></li
-								><li><a href="<?php echo home_url( '/' ); ?>">Fale Conosco</a></li
-								><li><a href="<?php echo home_url( '/' ); ?>">Faça um Orçamento</a></li>
+								><li><a href="<?php echo home_url( '/sobre' ); ?>">A Interlog</a></li
+								><li><a href="<?php echo home_url( '/servicos' ); ?>">Serviços</a></li
+								><li><a href="<?php echo home_url( '/estrutura' ); ?>">Estrutura</a></li
+								><li><a href="<?php echo home_url( '/contato' ); ?>">Fale Conosco</a></li
+								><li><a data-toggle="modal" data-target=".planoa" href="#">Area do Cliente</a></li>
 							</ul>								
 						</div>						
 						<div class="menu-header clearfix">
-							<div class="menu-op"><a class="orcamento" href="<?php echo home_url( '/' )."quero-ser-cliente"; ?>">Area do Cliente</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Fale Conosco</a></div>	
-							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Estrutura</a></div>							
-							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Serviços</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">A Interlog</a></div>
+							<div class="menu-op"><a class="orcamento" data-toggle="modal" data-target=".planoa" href="#">Area do Cliente</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/contato' ); ?>">Fale Conosco</a></div>	
+							<div class="menu-op"><a href="<?php echo home_url( '/estrutura' ); ?>">Estrutura</a></div>							
+							<div class="menu-op"><a href="<?php echo home_url( '/servicos' ); ?>">Serviços</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/sobre' ); ?>">A Interlog</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Início</a></div>
 						</div>
 					</div>					

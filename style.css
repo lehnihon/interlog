@@ -31,6 +31,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   SOBRE
   */
   /* 
+  SERVICOS
+  */
+  /* 
   SOLU├ç├òES
   */
   /* 
@@ -57,7 +60,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     font-weight: bold;
     margin-top: 0; }
   #page section#header header {
-    background-color: #ddaf39;
+    background-color: #edb127;
     color: white;
     padding: 8px 0; }
     #page section#header header span {
@@ -133,11 +136,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-top: 45px; }
       #page section#header nav div.menu-header div.menu-op {
         float: right;
-        margin-left: 30px;
+        margin-left: 45px;
         position: relative; }
         #page section#header nav div.menu-header div.menu-op a {
           color: #243b59;
-          font-weight: bold; }
+          font-size: 16px; }
         #page section#header nav div.menu-header div.menu-op a:hover {
           color: #638BC0; }
         #page section#header nav div.menu-header div.menu-op a.orcamento {
@@ -389,19 +392,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); }
   #page section#home-mobidata {
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 60px; }
     #page section#home-mobidata h1 {
       margin: 0;
       padding-bottom: 20px;
-      color: #cb723b; }
+      color: #e47234; }
     #page section#home-mobidata div.separador {
       border-bottom: 2px solid #eff2f1;
       width: 350px;
       margin: 0 auto;
       margin-bottom: 25px; }
     #page section#home-mobidata div.separadorc {
-      border-bottom: 2px solid #cb723b;
+      border-bottom: 2px solid #e47234;
       width: 120px;
       margin-bottom: 25px; }
     #page section#home-mobidata img {
@@ -437,18 +440,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page section#sobre h1 {
       margin: 0;
       padding-bottom: 20px;
-      color: #cb723b; }
+      color: #e47234; }
     #page section#sobre h2 {
       margin: 0;
       padding-bottom: 20px;
-      color: #cb723b; }
+      color: #e47234; }
     #page section#sobre div.separador {
       border-bottom: 2px solid #eff2f1;
       width: 350px;
       margin: 0 auto;
       margin-bottom: 25px; }
     #page section#sobre div.separadorc {
-      border-bottom: 2px solid #cb723b;
+      border-bottom: 2px solid #e47234;
       width: 120px;
       margin-bottom: 25px; }
     #page section#sobre img {
@@ -470,13 +473,56 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           margin-right: 5px; }
         #page section#sobre ul.mobi-vantagens li div.check-desc {
           line-height: 14px; }
+    #page section#sobre .col-md-4 {
+      padding-bottom: 35px; }
+  #page section#servicos {
+    padding-top: 10px;
+    padding-bottom: 60px; }
+    #page section#servicos h1 {
+      margin: 0;
+      padding-bottom: 20px;
+      color: #e47234; }
+    #page section#servicos h2 {
+      margin: 0;
+      padding-bottom: 20px;
+      color: #e47234; }
+    #page section#servicos div.separador {
+      border-bottom: 2px solid #eff2f1;
+      width: 350px;
+      margin: 0 auto;
+      margin-bottom: 25px; }
+    #page section#servicos div.separadorc {
+      border-bottom: 2px solid #e47234;
+      width: 120px;
+      margin-bottom: 25px; }
+    #page section#servicos img {
+      margin-bottom: 20px; }
+    #page section#servicos div.separadorb {
+      border-bottom: 2px solid #eff2f1;
+      width: 350px;
+      margin-bottom: 25px;
+      margin-top: 25px; }
+    #page section#servicos ul.mobi-vantagens {
+      list-style-type: none;
+      padding-left: 10px;
+      margin-bottom: 50px; }
+      #page section#servicos ul.mobi-vantagens li {
+        margin: 10px 0; }
+        #page section#servicos ul.mobi-vantagens li img {
+          float: left;
+          display: block;
+          margin-right: 5px; }
+        #page section#servicos ul.mobi-vantagens li div.check-desc {
+          line-height: 14px; }
+    #page section#servicos .col-md-4 {
+      padding-bottom: 35px; }
   #page section#sobre-info {
     background-color: #eff1f1;
     padding: 50px 0; }
     #page section#sobre-info h2 {
       margin: 0;
       margin-bottom: 10px;
-      color: #cb723b; }
+      color: #e47234; }
     #page section#sobre-info div.sobre-desc {
       width: 60%;
       margin: 0 auto; }
@@ -554,7 +600,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page section#sobre div.container {
       background-image: none; } }
   #page #footer {
-    background-color: #cb723b;
+    background-color: #e47234;
     background-repeat: repeat;
     color: #FFFFFF;
     padding: 60px 0; }
@@ -625,7 +671,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       height: 28px;
       display: inline-block; }
   #page div.copyrino {
-    background-color: #243b59;
+    background-color: #0a385a;
     text-align: center;
     color: #FFF;
     padding: 40px 0; }
@@ -640,7 +686,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         #page div.copyrino ul li a:hover {
           color: #cd4228; }
   #page .amarelo {
-    color: #ddaf39; }
+    color: #edb127; }
   #page .amarelo:hover {
     color: #ECD495; }
   #page .input-receba {
@@ -651,7 +697,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     color: #606060; }
   #page .input-contato {
     padding: 15px 10px;
-    border: 1px solid #cecece;
+    background-color: #f0f2f4;
+    border: 0;
     border-radius: 5px;
     width: 100%;
     margin-bottom: 10px; }
@@ -669,7 +716,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     color: white;
     border: 0;
     font-size: 16px;
-    background-color: #ddaf39;
+    background-color: #edb127;
     -webkit-transition: background-color 0.5s ease-in-out;
     -moz-transition: background-color 0.5s ease-in-out;
     -o-transition: background-color 0.5s ease-in-out;
@@ -710,7 +757,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 .videoWrapper {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 26.25%;
   /* 16:9 */
   padding-top: 25px;
   height: 0; }
@@ -721,6 +768,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   left: 0;
   width: 100%;
   height: 100%; }
+
+#msg_erro {
+  color: red; }
 
 .cor-amarelo {
   color: #ffc709; }

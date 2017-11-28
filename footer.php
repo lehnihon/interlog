@@ -1,3 +1,40 @@
+	<!-- MODALS -->
+    <div class="modal fade planoa" tabindex="-1" role="dialog" style="background-color: rgba(0, 0, 0, 0); max-height: 100%; max-width: 100%; width: 100%">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h2 class="modal-title text-center">INTERLOG SISTEMA</h2>
+          </div>
+          <div class="modal-body">
+          	<div id="msg_erro"></div>
+            <form id="form1" name="form1" action="doLogin.php" method="post">
+	          <div class="row">
+	            <div class="col-md-6">
+	              <div class="input-field">
+	                <input type="text" class="form-control" name="username" id="username" placeholder="Digite seu usuário" required="">
+	              </div>
+
+	            </div><!-- /.col-md-6 -->
+	            <div class="col-md-6">
+	              <div class="input-field">
+	                <input type="password" class="form-control" name="password" id="password" placeholder="Digite sua Senha" required="">
+	              </div>
+	            </div><!-- /.col-md-6 -->
+	          </div><!-- /.row --><br>
+	          <div class="row">
+	            <div class="col-md-6 text-left">
+	              <div class="input-field">
+	                <input type="submit" class="btn-contato" id="btn_entrar" name="btn_entrar" value="Entrar">
+	              </div>
+
+	            </div><!-- /.col-md-6 -->
+	          </div><!-- /.row -->
+	        </form>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 	<footer id="footer">
 		<div class="container">
 			<div class="row wow fadeInUp">
@@ -20,11 +57,10 @@
 				<div class="col-md-10 col-md-offset-1">
 					<ul class="menu-footer">
 						<li><a href="#">Início</a></li
-						><li><a href="<?php echo home_url( '/' ); ?>">Serviços</a></li
-						><li><a href="<?php echo home_url( '/' ); ?>">Estrutura</a></li
-						><li><a href="<?php echo home_url( '/' ); ?>">Fale Conosco</a></li
-						><li><a href="<?php echo home_url( '/' ); ?>">Área do Cliente</a></li
-						><li><a href="<?php echo home_url( '/' ); ?>">Quero um Orçamento</a></li>
+						><li><a href="<?php echo home_url( '/sobre' ); ?>">A Interlog</a></li
+						><li><a href="<?php echo home_url( '/servicos' ); ?>">Serviços</a></li
+						><li><a href="<?php echo home_url( '/estrutura' ); ?>">Estrutura</a></li
+						><li><a href="<?php echo home_url( '/contato' ); ?>">Fale Conosco</a></li						><li><a data-toggle="modal" data-target=".planoa"  href="<?php echo home_url( '/' ); ?>">Área do Cliente</a></li>
 					</ul>
 				</div>
 			</div><br><br>

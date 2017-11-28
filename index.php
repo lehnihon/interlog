@@ -17,7 +17,7 @@ get_header(); ?>
 	<div class="container-fluid">
 		<div class="row">
 			<?php
-			echo do_shortcode("[metaslider id=28]"); 
+			echo do_shortcode("[metaslider id=4]"); 
 			?>
 		</div>
 	</div>
@@ -125,8 +125,8 @@ envolvem os serviços de:
 					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.jpg"; ?>" /><div class="check-desc">manuseio de documentos</div></li>
 				</ul>
 			</div>
-			<div class="col-md-6 fadeInRight wow" data-wow-delay="0.5s">
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/video.jpg"; ?>" />
+			<div class="col-md-6 fadeInRight wow videoWrapper" data-wow-delay="0.5s">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/PvITQarOX8Q" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>		
