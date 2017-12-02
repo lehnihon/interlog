@@ -69,36 +69,50 @@ transporte de encomendas expressas, movimentação de objetos de valor, carga fr
 		</div><br/><br/>
 		<div class="row">
 			<div class="col-md-4 fadeInLeft wow text-left">
-				<a href="<?php echo home_url( '/' ); ?>">
-					<img class="e-cinza img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto1.jpg"; ?>" />
+				<a class="distr-image" href="<?php echo home_url( '/sobre' ); ?>">
+					<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto2.jpg"; ?>" />
+					<div class="retina">
+					</div>
+					<div class="desc">
+						<div class="amarelo">Sobre</div>
+						<h3>
+							A Interlog
+						</h3>
+					</div>
 				</a>
-				<h3>
-					A Interlog
-				</h3>
-				<a class="amarelo" href="">Saiba mais ></a>
+				
+				
 			</div>
 			<div class="col-md-4 fadeInUp wow text-left">
-				<a href="<?php echo home_url( '/' ); ?>">
-					<img class="e-cinza img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto2.jpg"; ?>" />
+				<a class="distr-image" href="<?php echo home_url( '/estrutura' ); ?>">
+					<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto1.jpg"; ?>" />
+					<div class="retina">
+					</div>
+					<div class="desc">
+						<div class="amarelo">Interlog</div>
+						<h3>
+							Estrutura
+						</h3>
+					</div>
 				</a>
-				<h3>
-					Estrutura
-				</h3>
-				<a class="amarelo" href="">Saiba mais ></a>
 			</div>
 			<div class="col-md-4 fadeInRight wow text-left">
-				<a href="<?php echo home_url( '/' ); ?>">
-					<img class="e-cinza img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto3.jpg"; ?>" />
+				<a class="distr-image" href="<?php echo home_url( '/servicos' ); ?>">
+					<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto3.jpg"; ?>" />
+					<div class="retina">
+					</div>
+					<div class="desc">
+						<div class="amarelo">Para você</div>
+						<h3>
+							Serviços
+						</h3>
+					</div>
 				</a>
-				<h3>
-					Serviços
-				</h3>
-				<a class="amarelo" href="">Saiba mais ></a>
 			</div>
 		</div><br><br>
 		<div class="row fadeInUp wow">
 			<div class="col-md-12">
-				<a href="<?php echo home_url( '/' )."orcamento"; ?>" class="btn btn-amarelo">quero um orcamento</a>
+				<a href="<?php echo home_url( '/' )."contato"; ?>" class="btn btn-amarelo">fale com a interlog</a>
 			</div>
 		</div>
 	</div>
