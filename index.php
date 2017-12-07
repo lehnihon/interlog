@@ -98,7 +98,7 @@ transporte de encomendas expressas, movimentação de objetos de valor, carga fr
 		</div><br><br>
 		<div class="row fadeInUp wow">
 			<div class="col-md-12">
-				<a href="<?php echo home_url( '/' )."orcamento"; ?>" class="btn btn-amarelo">quero um orcamento</a>
+				<a href="<?php echo home_url( '/contato' ); ?>" class="btn btn-amarelo">quero um orcamento</a>
 			</div>
 		</div>
 	</div>

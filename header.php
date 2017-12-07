@@ -29,13 +29,14 @@ new WOW().init();
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 col-md-offset-8">
-						<span>Redes sociais </span>	
+						
 						<ul class="redes_sociais_header clearfix">
 			              <li class="youtube"><a target="_blank" href="#"></a></li>
 			              <li class="instagram"><a target="_blank" href="#"></a></li>
 			              <li class="twitter"><a target="_blank" href="#"></a></li>
 			              <li class="facebook"><a target="_blank" href="#"></a></li>
 						</ul>
+						<span>Redes sociais </span>	
 					</div>
 				</div>
 			</div>
