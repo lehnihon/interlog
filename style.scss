@@ -241,6 +241,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 }
 
+.bx-viewport{
+	-webkit-box-shadow: 0 0 0px #FFF !important; 
+    box-shadow: 0 0 0px #FFF !important;
+    left:0 !important;
+}
+
 .videoWrapper {
     position: relative;
     padding-bottom: 26.25%; /* 16:9 */

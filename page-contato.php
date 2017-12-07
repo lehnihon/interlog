@@ -6,19 +6,19 @@ get_header(); ?>
 <section id="sobre">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 text-left fadeInUp wow">
+			<div class="col-md-7 text-left fadeInUp wow">
 				<h1>Fale com a Interlog</h1>
 				<div class="separadorc"></div>
 				<p>Preencha o formulário. Vamos colocá-lo em contato com a pessoa ideal para atender sua necessidade.</p>
 			</div>
 		</div><br><br>
 		<div class="row">
-			<div class="col-md-8 text-left">
+			<div class="col-md-7 text-left">
 				<?php while ( have_posts() ) : the_post(); ?>
 					<?php the_content(); ?>
 				<?php endwhile; // End of the loop. ?>
 			</div>
-			<div class="col-md-3 col-md-offset-1 contato-desc text-left">
+			<div class="col-md-3 col-md-offset-2 contato-desc text-left">
 				<h2>Matriz Belo Horizonte</h2>
 				<p>Rua Major Lage, 370 - Ouro Preto<br>
 				Belo Horizonte - MG</p>
