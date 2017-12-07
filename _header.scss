@@ -118,13 +118,14 @@ section#header{
                 }
                 a.orcamento{
                     border-radius: 5px;
-                    color:#243b59;
                     padding:10px 25px;
-                    border:1px solid #243b59;
+                    border:1px solid #e47232;
+                    background-color:#e47232;
+                    color:#FFF;
                 }
                 a.orcamento:hover{
-                    background-color:#7fa8cb;
-                    color:#FFF;
+                    color:#e47232 !important;
+                    background-color:#FFF !important;
                 }
             }
 
